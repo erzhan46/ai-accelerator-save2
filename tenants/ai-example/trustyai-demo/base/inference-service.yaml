@@ -30,7 +30,7 @@ spec:
       runtime: qwen-instruct
       storage:
         key: aws-connection-trustyai
-        path: Qwen2.5-0.5B-Instruct
+        path: models/qwen-instruct
     tolerations:
       - effect: NoSchedule
         key: nvidia.com/gpu
