@@ -6,3 +6,5 @@ patches:
     target:
       kind: DataScienceCluster
 
+components:
+  - ../wait-for-servicemesh
