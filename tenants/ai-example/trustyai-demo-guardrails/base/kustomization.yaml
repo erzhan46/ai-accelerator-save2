@@ -8,6 +8,12 @@ resources:
   - data-connection.yaml
   - inference-service.yaml
   - serving-runtime.yaml
+  - configmap_auxiliary_images.yaml
+  - configmap_orchestrator.yaml
+  - configmap_vllm_gateway.yaml
+  - gateway_service.yaml
+  - gateway_route.yaml
+  - orchestrator.yaml
 
 patches:
   - path: patch-model-details.yaml
