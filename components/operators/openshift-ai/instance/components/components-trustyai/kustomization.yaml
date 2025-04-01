@@ -6,5 +6,3 @@ patches:
     target:
       kind: DataScienceCluster
 
-components:
-  - ../patch-trustyai-configmap
